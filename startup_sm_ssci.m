@@ -1,13 +1,13 @@
-% Copyright 2016 The MathWorks, Inc.
+% Copyright 2016-2017 The MathWorks, Inc.
 
-addpath([pwd filesep 'Multibody_1D_Intf_Lib']);
-addpath([pwd filesep 'Doc']);
-addpath([pwd filesep 'Scripts_Data']);
+SCI_HomeDir = pwd;
+addpath(pwd)
+addpath(genpath(pwd))
 
-cd Multibody_1D_Intf_Lib
-if((exist('+mechPS')==7) && ~exist('mechPS_Lib'))
-    ssc_build mechPS
+cd Libraries
+if((exist('+forcesPS')==7) && ~exist('forcesPS_Lib'))
+    ssc_build forcesPS
 end
 cd ..
 
-web('Extending_Simscape_Multibody_Demo_Script.html');
+web('Multibody_Multiphysics_Demo_Script.html');

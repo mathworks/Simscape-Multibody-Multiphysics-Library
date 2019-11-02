@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+   <Created by="Steve Miller" from="Onshape" on="12/06/16||11:42:59" using="Simscape Multibody Exporter"/>
+   <ModelUnits length="meter" mass="kilogram"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="Lift Table" uid="9b34b42426ca97c61d0f8163" version="w-25de1d6821c1e8196b6a0f01">
+      <InstanceTree>
+         <Instance entityUid="RSBD*:*b057396f7310e90919e7aba6" name="Pin CylBracket &lt;1&gt;" uid="MYqRSOvNdIkg4syWL">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.517293863 0.000000000 -1.079124314 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="J8D*:*b057396f7310e90919e7aba6" name="RodPiston &lt;1&gt;" uid="M8BDZ+0UU1Vee/u9o">
+            <Transform>
+               <Rotation>0.548842218 0.000000000 -0.835925965 -0.000000000 1.000000000 0.000000000 0.835925965 0.000000000 0.548842218 </Rotation>
+               <Translation>-0.306078367 -0.000000000 0.182723214 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="RIBD*:*b057396f7310e90919e7aba6" name="Cylinder &lt;1&gt;" uid="MlN33CpLHlSks1VVx">
+            <Transform>
+               <Rotation>0.548842218 0.000000000 -0.835925965 -0.000000000 1.000000000 0.000000000 0.835925965 -0.000000000 0.548842218 </Rotation>
+               <Translation>-0.101801852 0.000000000 0.493850961 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JVD*:*b057396f7310e90919e7aba6" name="Pin Leg1 Upper &lt;1&gt;" uid="M299sBqzGWgeoAmuU">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>-0.996924917 -0.000000000 -0.921637318 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="J0D*:*b057396f7310e90919e7aba6" name="CylAttLegPin &lt;1&gt;" uid="MjMGutJIp+TCg9y8L">
+            <Transform>
+               <Rotation>0.548842218 0.000000000 -0.835925965 -0.000000000 1.000000000 -0.000000000 0.835925965 -0.000000000 0.548842218 </Rotation>
+               <Translation>-0.306078367 -0.000000000 0.182723214 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JWD*:*b057396f7310e90919e7aba6" name="Pin Leg2 Lower &lt;1&gt;" uid="M2PlwL/r8G7JhbHNI">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JQD*:*b057396f7310e90919e7aba6" name="Pin Leg1 Lower &lt;1&gt;" uid="M0fRyEqudFe3e2r0t">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JOD*:*b057396f7310e90919e7aba6" name="Link Pin &lt;1&gt;" uid="M0MLacI727OA1F9Kc">
+            <Transform>
+               <Rotation>0.078362682 0.000000000 -0.996924917 -0.000000000 1.000000000 -0.000000000 0.996924917 -0.000000000 0.078362682 </Rotation>
+               <Translation>-0.460818659 -0.000000000 0.498462459 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JvD*:*b057396f7310e90919e7aba6" grounded="true" name="Base &lt;1&gt;" uid="MR6FCwQ4ybU+WCdE3">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JaD*:*b057396f7310e90919e7aba6" name="Platform &lt;1&gt;" uid="M8W64lJtP+rquJ6Da">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>-0.996924917 -0.000000000 -0.921637318 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="RPBD*:*b057396f7310e90919e7aba6" grounded="true" name="CylBracket &lt;1&gt;" uid="Mw1MzALKHk/LW2/5G">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.517293863 0.000000000 -1.079124314 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JPD*:*b057396f7310e90919e7aba6" name="Link 2 &lt;1&gt;" uid="Msem3wVQJijl+q2wc">
+            <Transform>
+               <Rotation>0.078362682 0.000000000 -0.996924917 -0.000000000 1.000000000 0.000000000 0.996924917 0.000000000 0.078362682 </Rotation>
+               <Translation>0.921637318 0.000000000 -0.996924917 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JHD*:*b057396f7310e90919e7aba6" name="Link 1 &lt;1&gt;" uid="M22t1b9jT4v2Et1uY">
+            <Transform>
+               <Rotation>0.078362682 0.000000000 -0.996924917 -0.000000000 1.000000000 -0.000000000 0.996924917 -0.000000000 0.078362682 </Rotation>
+               <Translation>-0.460818659 -0.000000000 0.498462459 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JXD*:*b057396f7310e90919e7aba6" name="Pin Leg2 Upper &lt;1&gt;" uid="Md6aRTlNqtLXW6t0G">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>-0.996924917 -0.000000000 -0.921637318 </Translation>
+            </Transform>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints>
+         <Revolute name="RevoluteLeg1Platform">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M299sBqzGWgeoAmuU</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.500000000 0.000000000 1.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M22t1b9jT4v2Et1uY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.500000000 0.000000000 1.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteFloorLeg1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M0fRyEqudFe3e2r0t</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.500000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M22t1b9jT4v2Et1uY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.500000000 0.000000000 -0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteFloorLeg2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M2PlwL/r8G7JhbHNI</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Msem3wVQJijl+q2wc</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.000000000 0.000000000 -0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteLeg2Platform">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Md6aRTlNqtLXW6t0G</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.000000000 0.000000000 1.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Msem3wVQJijl+q2wc</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>1.000000000 0.000000000 1.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteLegCylinder">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MjMGutJIp+TCg9y8L</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.500000000 0.000000000 0.500000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M0MLacI727OA1F9Kc</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.500000000 0.000000000 0.500000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="RevoluteRodLeg">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M8BDZ+0UU1Vee/u9o</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.580000000 0.000000000 0.500000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MjMGutJIp+TCg9y8L</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.580000000 -0.000000000 0.500000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Prismatic name="PrismaticCylinderPiston">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MlN33CpLHlSks1VVx</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 -0.000000000 1.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>-1.980000000 0.000000000 0.500000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M8BDZ+0UU1Vee/u9o</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 -0.000000000 1.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>-1.605000000 0.000000000 0.500000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Prismatic>
+         <Revolute name="RevoluteCylinderBracket">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MlN33CpLHlSks1VVx</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-2.210000000 0.000000000 0.500000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MYqRSOvNdIkg4syWL</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-2.250000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Weld name="group_root_M8wwam7CcymZjPBs8_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M0fRyEqudFe3e2r0t</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M2PlwL/r8G7JhbHNI</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_M8wwam7CcymZjPBs8_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MR6FCwQ4ybU+WCdE3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M0fRyEqudFe3e2r0t</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MQqFhk7K0_WZbd_J2_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M8W64lJtP+rquJ6Da</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M299sBqzGWgeoAmuU</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MQqFhk7K0_WZbd_J2_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Md6aRTlNqtLXW6t0G</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M8W64lJtP+rquJ6Da</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_MTJvMr9EUtdVvMA3k_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M22t1b9jT4v2Et1uY</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M0MLacI727OA1F9Kc</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="group_root_Mo_r5L47RUaOxsdjU_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mw1MzALKHk/LW2/5G</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MYqRSOvNdIkg4syWL</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+                  <Translation>0 0 0</Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+      </Joints>
+   </RootAssembly>
+   <Assemblies/>
+   <Parts>
+      <Part name="Link 1" uid="JHD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>100.365376</Mass>
+            <CenterOfMass>-0.500000000 0.000000000 0.500000000 </CenterOfMass>
+            <Inertia>12.035305194 11.628997321 0.576794631 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Link 1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.686274510" g="0.647058824" r="0.603921569"/>
+            <Diffuse a="1.000000000" b="0.686274510" g="0.647058824" r="0.603921569"/>
+            <Specular a="1.000000000" b="0.686274510" g="0.647058824" r="0.603921569"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Link Pin" uid="JOD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>1.5413439</Mass>
+            <CenterOfMass>-0.500000000 0.000000000 0.500000000 </CenterOfMass>
+            <Inertia>0.001525288 0.000481670 0.001525288 0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Link Pin.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Link 2" uid="JPD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>100.365376</Mass>
+            <CenterOfMass>1.000000000 0.000000000 0.500000000 </CenterOfMass>
+            <Inertia>12.035305194 11.628997321 0.576794631 -0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Link 2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.686274510" g="0.647058824" r="0.603921569"/>
+            <Diffuse a="1.000000000" b="0.686274510" g="0.647058824" r="0.603921569"/>
+            <Specular a="1.000000000" b="0.686274510" g="0.647058824" r="0.603921569"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin Leg1 Lower" uid="JQD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>4.62403169</Mass>
+            <CenterOfMass>-0.500000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.035402743 0.001445010 0.035402743 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin Leg1 Lower.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin Leg1 Upper" uid="JVD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>4.62403169</Mass>
+            <CenterOfMass>-0.500000000 0.000000000 1.000000000 </CenterOfMass>
+            <Inertia>0.035402743 0.001445010 0.035402743 0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin Leg1 Upper.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin Leg2 Lower" uid="JWD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>4.62403169</Mass>
+            <CenterOfMass>1.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.035402743 0.001445010 0.035402743 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin Leg2 Lower.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin Leg2 Upper" uid="JXD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>4.62403169</Mass>
+            <CenterOfMass>1.000000000 0.000000000 1.000000000 </CenterOfMass>
+            <Inertia>0.035402743 0.001445010 0.035402743 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin Leg2 Upper.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Platform" uid="JaD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>744.065376</Mass>
+            <CenterOfMass>0.250000000 0.000000000 1.117458317 </CenterOfMass>
+            <Inertia>59.292836104 208.505028688 266.288755475 0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Platform.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.666666667" g="0.372549020" r="0.105882353"/>
+            <Diffuse a="1.000000000" b="0.666666667" g="0.372549020" r="0.105882353"/>
+            <Specular a="1.000000000" b="0.666666667" g="0.372549020" r="0.105882353"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Base" uid="JvD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>744.065376</Mass>
+            <CenterOfMass>0.250000000 0.000000000 -0.117458317 </CenterOfMass>
+            <Inertia>59.292836104 208.505028688 266.288755475 0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Base.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.400000000" g="0.376470588" r="0.349019608"/>
+            <Diffuse a="1.000000000" b="0.400000000" g="0.376470588" r="0.349019608"/>
+            <Specular a="1.000000000" b="0.400000000" g="0.376470588" r="0.349019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CylAttLegPin" uid="J0D*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>4.64098483</Mass>
+            <CenterOfMass>-0.515885062 0.000000024 0.499999997 </CenterOfMass>
+            <Inertia>0.005192282 0.009464455 0.008315617 0.000000015 0.000000003 0.000000004 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CylAttLegPin.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.054901961" g="0.756862745" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.054901961" g="0.756862745" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.054901961" g="0.756862745" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="RodPiston" uid="J8D*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>18.8814627</Mass>
+            <CenterOfMass>-1.174132653 0.000000000 0.500000000 </CenterOfMass>
+            <Inertia>0.014570517 2.035509431 2.035509431 -0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="RodPiston.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.156862745" g="0.321568627" r="0.866666667"/>
+            <Diffuse a="1.000000000" b="0.156862745" g="0.321568627" r="0.866666667"/>
+            <Specular a="1.000000000" b="0.156862745" g="0.321568627" r="0.866666667"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Cylinder" uid="RIBD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>63.6562062</Mass>
+            <CenterOfMass>-1.697512981 0.000000063 0.499999810 </CenterOfMass>
+            <Inertia>0.356173068 5.618738857 5.617591922 -0.000000219 -0.000003674 0.000001359 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Cylinder.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="0.498039216" b="0.800000000" g="0.760784314" r="0.713725490"/>
+            <Diffuse a="0.498039216" b="0.800000000" g="0.760784314" r="0.713725490"/>
+            <Specular a="0.498039216" b="0.800000000" g="0.760784314" r="0.713725490"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="CylBracket" uid="RPBD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>111.159126</Mass>
+            <CenterOfMass>-2.250000000 0.000000000 -0.039966279 </CenterOfMass>
+            <Inertia>2.229291822 1.180197363 2.180596550 -0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="CylBracket.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.400000000" g="0.376470588" r="0.349019608"/>
+            <Diffuse a="1.000000000" b="0.400000000" g="0.376470588" r="0.349019608"/>
+            <Specular a="1.000000000" b="0.400000000" g="0.376470588" r="0.349019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Pin CylBracket" uid="RSBD*:*b057396f7310e90919e7aba6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>4.62403169</Mass>
+            <CenterOfMass>-2.250000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.035402743 0.001445010 0.035402743 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Pin CylBracket.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Diffuse a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Specular a="1.000000000" b="0.945098039" g="0.811764706" r="0.564705882"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>

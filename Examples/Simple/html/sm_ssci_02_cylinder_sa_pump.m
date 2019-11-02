@@ -41,6 +41,6 @@ sm_ssci_02_cylinder_sa_pump_plot2vtank;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

@@ -89,6 +89,6 @@ sm_ssci_hinge_hardstop_plot1ang;
 % <<sm_ssci_hinge_hardstop_mechexp.gif>>
 %%
 
-clear all
+%clear all
 close all
 bdclose all

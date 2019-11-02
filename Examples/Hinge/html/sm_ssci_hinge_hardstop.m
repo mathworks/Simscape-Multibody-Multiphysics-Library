@@ -4,15 +4,17 @@
 % with additional physical effects using Simscape.  Review the three
 % methods below to determine which method is best suited to your needs.
 %
-% The mechanical system is a hinge modeled with a revolute joint.  Hard
-% stops and friction are added to the joint.  At the start of simulation,
-% gravity pulls the second link down, rotating the hinge to its limit.  The
-% friction and joint limit affect how the system behaves.
+% The mechanical system is a hinge modeled with a revolute joint.  The
+% range of joint motion can be limited directly in Simscape Multibody joint
+% blocks starting in R2019a. Hard stops and friction are added to the joint
+% in the other models.  At the start of simulation, gravity pulls the
+% second link down, rotating the hinge to its limit.  The friction and
+% joint limit affect how the system behaves.
 %
 % For all methods, the position and orientation of the two frames connected
 % to the joint must be coordinated with the limits set in the hard stop.
 %
-% Copyright 2016-2018 The MathWorks, Inc.
+% Copyright 2016-2019 The MathWorks, Inc.
 
 
 %% Model

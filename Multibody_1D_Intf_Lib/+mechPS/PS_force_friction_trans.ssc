@@ -1,0 +1,70 @@
+component PS_force_friction_trans
+% Translational Friction Force
+% The block represents friction in the contact between moving bodies. The 
+% friction force is simulated as a function of relative velocity and 
+% assumed to be the sum of Stribeck, Coulomb, and viscous components. The
+% sum of the Coulomb and Stribeck frictions at zero velocity is often 
+% referred to as the breakaway friction.
+
+% Copyright 2016 The MathWorks, Inc.
+
+inputs
+    v = {0, 'm/s'}; % v:left
+end
+
+outputs
+    f = {0, 'N'}; %f:right
+end
+
+parameters
+    brkwy_frc = { 25, 'N' };        % Breakaway friction force
+    Col_frc = { 20, 'N' };          % Coulomb friction force
+    visc_coef = { 100, 'N*s/m' };   % Viscous friction coefficient
+    trans_coef = { 10, 's/m' };     % Transition approximation coefficient
+    vel_thr = { 1e-4, 'm/s' };      % Linear region velocity threshold
+end
+
+parameters (Access=private)
+    brkwy_frc_th = { 24.995, 'N' }; % Breakaway force at threshold velocity
+end
+
+function setup %#simple
+    % Parameter range checking
+    if brkwy_frc <= 0
+        pm_error('simscape:GreaterThanZero','Breakaway friction force')
+    end
+    if Col_frc <= 0
+        pm_error('simscape:GreaterThanZero','Coulomb friction force')
+    end
+    if Col_frc > brkwy_frc
+        pm_error('simscape:LessThanOrEqual','Coulomb friction force','Breakaway friction force')
+    end
+    if visc_coef < 0
+        pm_error('simscape:GreaterThanOrEqualToZero','Viscous friction coefficient')
+    end
+    if trans_coef <= 0
+        pm_error('simscape:GreaterThanZero','Transition approximation coefficient')
+    end
+    if vel_thr <= 0
+        pm_error('simscape:GreaterThanZero','Linear region velocity threshold' )
+    end
+
+    % Computing breakaway friction force at threshold velocity
+    brkwy_frc_th = visc_coef * vel_thr + Col_frc + (brkwy_frc - Col_frc) * ...
+        exp(-trans_coef * vel_thr);
+end
+
+equations
+    if (abs(v) <= vel_thr)
+        % Linear region
+        f == brkwy_frc_th * v / vel_thr;
+    elseif v > 0
+        f == visc_coef * v + Col_frc + ...
+            (brkwy_frc - Col_frc) * exp(-trans_coef * v);
+    else
+        f == visc_coef * v - Col_frc - ...
+            (brkwy_frc - Col_frc) * exp(-trans_coef * abs(v));
+    end
+end
+
+end

@@ -1,5 +1,6 @@
 Connecting Simscape 1-D mechanical models and 3D models in Simscape Multibody.
 
+Run startup_sm_ssci.m to get started
 
 This file contains example models showing how to connect 3D and 1D mechanical models. 
 Connecting the models using Simscape Physical Signals ensures a lossless transfer 
@@ -27,9 +28,9 @@ rules:
 3. Quantities sensed in Simscape (like translation at a node) may be offset from comparable quantities
    measured in Simscape Multibody.  This is because the initial position of the Simscape Multibody joint,
    which is determined during the assembly process, is not automatically conveyed to the Simscape network.
-   Once you know this value (after updating the diagram), you can enter it into the Simscape network.
-
-
+   You must either use MATLAB variables to synchronize the setting of the initial position or feed
+   the position from Simscape Multibody to the Simscape network.  The examples in this submission
+   show how to do that.
 
 Copyright 2013-2016 The MathWorks, Inc.
 

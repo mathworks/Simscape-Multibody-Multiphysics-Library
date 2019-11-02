@@ -33,9 +33,18 @@ rules:
    the position from Simscape Multibody to the Simscape network.  The examples in this submission
    show how to do that.
 
-Copyright 2013-2017 The MathWorks, Inc.
+Copyright 2013-2018 The MathWorks, Inc.
 
 #########  Release History  #########  
+v 2.5 (R2017b)	Sept 2017   Added block Hydraulic Cylinder SA PS to library which models
+                            a single-acting hydraulic cylinder using a physical signal
+                            interface.  
+                             
+                            Added sm_ssci_02_cylinder_sa_pump which models a single 
+                            piston pump using the Hydraulic SA PS block.                          
+
+v 2.4 (R2017b)	Sept 2017   Updated for R2017b.
+
 v 2.3 (R2017a)	July 2017   Fixed mistake in library (Interfaces/Translational Simscape Multibody).
                             Changed checkbox from torque to force.
                             Added example sm_ssci_01_slider_crank.slx                            

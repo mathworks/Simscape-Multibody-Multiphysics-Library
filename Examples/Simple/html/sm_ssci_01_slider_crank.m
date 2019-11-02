@@ -6,7 +6,7 @@
 % 3D mechanical model in Simscape Multibody and the 1D mechanical elements
 % in Simscape
 % 
-% Copyright 2017 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 
 %% Model
@@ -27,6 +27,6 @@ sm_ssci_01_slider_crank_plot1speed;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

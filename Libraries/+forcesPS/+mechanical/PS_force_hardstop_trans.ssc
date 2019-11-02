@@ -5,7 +5,7 @@ component PS_force_hardstop_trans
 % is implemented as a spring and damper that comes into contact with the 
 % slider as the gap closes.
 
-% Copyright 2016-2017 The MathWorks, Inc.
+% Copyright 2016-2018 The MathWorks, Inc.
 
 parameters
     upper_bnd = {0.1 , 'm'    }; % Upper bound
@@ -23,24 +23,6 @@ end
 
 outputs
     f = {0, 'N'}; %f:right
-end
-
-function setup %#simple
-    if lower_bnd >= upper_bnd
-        pm_error('simscape:LessThan','Lower bound','Upper bound')
-    end
-    if stiff_up <= 0
-        pm_error('simscape:GreaterThanZero','Contact stiffness at upper bound')
-    end
-    if stiff_low <= 0
-        pm_error('simscape:GreaterThanZero','Contact stiffness at lower bound')
-    end
-    if D_up < 0
-        pm_error('simscape:GreaterThanOrEqualToZero','Contact damping at upper bound')
-    end
-    if D_low < 0
-        pm_error('simscape:GreaterThanOrEqualToZero','Contact damping at lower bound')
-    end
 end
 
 equations

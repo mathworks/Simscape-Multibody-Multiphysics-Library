@@ -12,6 +12,7 @@
 % <tr><b><u>Simple Examples </u></b><br>
 % <tr>1. Joint Limits and Friction Methods in a Hinge: <a href="matlab:open_system('sm_ssci_hinge_hardstop.slx');">Model</a>, <a href="matlab:web('sm_ssci_hinge_hardstop.html');">Documentation</a><br>
 % <tr>2. Slider Crank Mechanism with Friction: <a href="matlab:open_system('sm_ssci_01_slider_crank.slx');">Model</a>, <a href="matlab:web('sm_ssci_01_slider_crank.html');">Documentation</a><br>
+% <tr>3. Single Piston Pump: <a href="matlab:open_system('sm_ssci_02_cylinder_sa_pump.slx');">Model</a>, <a href="matlab:web('sm_ssci_02_cylinder_sa_pump.html');">Documentation</a><br>
 % <tr><br>
 % <tr><b><u>Electric and Hydraulic Lift Table Examples</u></b><br>
 % <tr>1. Hydraulic Actuator with 1D Mechanical Ports: <a href="matlab:open_system('sm_ssci_hydraulic_lift_flib.slx');">Model</a>, <a href="matlab:web('sm_ssci_hydraulic_lift_flib.html');">Documentation</a><br>
@@ -22,3 +23,5 @@
 % <tr><b><u>CAD Examples</u></b><br>
 % <tr>1. Lift Table from CAD: <a href="matlab:open_system('sm_lift_table_f2_hydr.slx');">Model</a>, <a href="matlab:web('sm_lift_table_CAD.html');">Documentation</a><br>
 % </html>
+% 
+% Copyright 2016-2018 The MathWorks(TM), Inc.

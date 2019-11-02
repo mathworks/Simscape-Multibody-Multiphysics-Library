@@ -1,4 +1,4 @@
-% Copyright 2016-2017 The MathWorks, Inc.
+% Copyright 2016-2018 The MathWorks, Inc.
 
 SCI_HomeDir = pwd;
 addpath(pwd)
@@ -10,4 +10,6 @@ if((exist('+forcesPS')==7) && ~exist('forcesPS_Lib'))
 end
 cd ..
 
-web('Multibody_Multiphysics_Demo_Script.html');
+if exist('Multibody_Multiphysics_Demo_Script.html')
+    web('Multibody_Multiphysics_Demo_Script.html');
+end

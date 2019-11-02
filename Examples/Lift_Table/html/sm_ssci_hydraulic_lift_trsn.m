@@ -20,7 +20,7 @@
 % correctly.
 %
 %
-% Copyright 2016-2017 The MathWorks, Inc.
+% Copyright 2016-2018 The MathWorks, Inc.
 
 
 %% Model
@@ -86,6 +86,6 @@ sm_ssci_hydraulic_lift_trsn_plot1ext;
 
 %%
 
-clear all
+%clear all
 close all
 bdclose all

@@ -24,4 +24,4 @@
 % <tr>1. Lift Table from CAD: <a href="matlab:open_system('sm_lift_table_f2_hydr.slx');">Model</a>, <a href="matlab:web('sm_lift_table_CAD.html');">Documentation</a><br>
 % </html>
 % 
-% Copyright 2016-2019 The MathWorks(TM), Inc.
+% Copyright 2016-2020 The MathWorks(TM), Inc.

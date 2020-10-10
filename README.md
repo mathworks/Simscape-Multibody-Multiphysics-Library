@@ -37,6 +37,12 @@ rules:
    show how to do that.
 
 ### **Release History** 
+**v4.0 Sep 2020** (R2019b - R2020b)   
+1. Updated for R2020b
+
+**v4.0 Mar 2020** (R2019b - R2020a)   
+1. Updated for R2020a
+
 **v4.0 Sep 2019** (R2019b)   
 1. Updated for R2019b
 2. Converted to MATLAB Project with core content as Reference Project

@@ -1,6 +1,8 @@
 # **Simscape Multibody Multiphysics Library**
 Copyright 2013-2020 The MathWorks(TM), Inc.
 
+[![View Simscape Multibody Multiphysics Library on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/37636-simscape-multibody-multiphysics-library)
+
 Open project Multibody_Multiphysics_Library.prj to get started
 
 This file contains example models showing how to extend Simscape Multibody models

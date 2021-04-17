@@ -1,4 +1,4 @@
-%% Hydraulic Actuator with Physical Signal Ports
+%% Hydraulic Actuator with Physical Signal Ports, Custom Hydaulic Actuator
 %
 % This example shows how to extend Simscape Multibody models with
 % additional physical effects using joint actuation and joint sensing. A
@@ -19,7 +19,7 @@
 % correctly.
 %
 %
-% Copyright 2016-2020 The MathWorks, Inc.
+% Copyright 2016-2021 The MathWorks, Inc.
 
 
 %% Model

@@ -10,7 +10,7 @@ cd(fileparts(which('sm_ssci_electric_lift_trsn.slx')));
 cd('html');
 publish_all_html
 
-% Copyright 2016-2020 The MathWorks(TM), Inc.
+% Copyright 2016-2021 The MathWorks(TM), Inc.
 
 function publish_all_html
 filelist_m=dir('*.m');

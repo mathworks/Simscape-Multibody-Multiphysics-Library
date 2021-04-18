@@ -37,6 +37,11 @@ rules:
    show how to do that.
 
 ### **Release History** 
+**v4.1 Mar 2021** (R2021a)   
+1. Updated for R2021a
+2. Examples added and modified to use interface blocks shipping in R2021a
+   Original examples retained to show options for custom blocks.
+
 **v4.0 Sep 2020** (R2019b - R2020b)   
 1. Updated for R2020b
 

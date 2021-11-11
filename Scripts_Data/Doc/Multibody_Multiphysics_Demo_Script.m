@@ -14,6 +14,7 @@
 % <tr>2. Slider Crank Mechanism with Friction: <a href="matlab:open_system('sm_ssci_01_slider_crank.slx');">Model</a>, <a href="matlab:web('sm_ssci_01_slider_crank.html');">Documentation</a><br>
 % <tr>3. Single Piston Pump: <a href="matlab:open_system('sm_ssci_03_cylinder_sa_pump_flib.slx');">Model</a>, <a href="matlab:web('sm_ssci_03_cylinder_sa_pump_flib.html');">Documentation</a><br>
 % <tr>4. Single Piston Pump, Custom: <a href="matlab:open_system('sm_ssci_02_cylinder_sa_pump.slx');">Model</a>, <a href="matlab:web('sm_ssci_02_cylinder_sa_pump.html');">Documentation</a><br>
+% <tr>5. Single Piston Pump, Motor Driven: <a href="matlab:open_system('sm_ssci_04_cylinder_sa_pump_motor_flib.slx');">Model</a>, <a href="matlab:web('sm_ssci_04_cylinder_sa_pump_motor_flib.html');">Documentation</a><br>
 % <tr><br>
 % <tr><b><u>Electric and Hydraulic Lift Table Examples</u></b><br>
 % <tr>1. Hydraulic Actuator with 1D Mechanical Ports: <a href="matlab:open_system('sm_ssci_hydraulic_lift_flib.slx');">Model</a>, <a href="matlab:web('sm_ssci_hydraulic_lift_flib.html');">Documentation</a><br>

@@ -27,7 +27,7 @@
 
 open_system('sm_ssci_hydraulic_lift_trsn')
 
-set_param(find_system('sm_ssci_hydraulic_lift_trsn','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_ssci_hydraulic_lift_trsn','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Hydraulic Actuator Subsystem
 %

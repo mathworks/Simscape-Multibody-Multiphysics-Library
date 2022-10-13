@@ -25,7 +25,7 @@
 
 open_system('sm_ssci_hydraulic_lift_sscfluids')
 
-set_param(find_system('sm_ssci_hydraulic_lift_sscfluids','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_ssci_hydraulic_lift_sscfluids','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Four Bar Subsystem
 %

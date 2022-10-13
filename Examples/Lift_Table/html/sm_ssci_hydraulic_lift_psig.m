@@ -26,7 +26,7 @@
 
 open_system('sm_ssci_hydraulic_lift_psig')
 
-set_param(find_system('sm_ssci_hydraulic_lift_psig','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_ssci_hydraulic_lift_psig','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Hydraulic Actuator Subsystem
 %

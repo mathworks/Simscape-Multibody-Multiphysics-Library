@@ -33,7 +33,7 @@
 % <matlab:open_system('sm_lift_table_0_import'); Open Model>
 
 open_system('sm_lift_table_0_import')
-set_param(find_system('sm_lift_table_0_import','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_lift_table_0_import','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 %%
 % *Screenshot of Simscape Multibody Model*
 %%
@@ -48,7 +48,7 @@ set_param(find_system('sm_lift_table_0_import','FindAll', 'on','type','annotatio
 % <matlab:open_system('sm_lift_table_1_arch'); Open Model>
 
 open_system('sm_lift_table_1_arch')
-set_param(find_system('sm_lift_table_1_arch','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_lift_table_1_arch','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Hydraulic Actuator: Determine Required Force
 %
@@ -59,7 +59,7 @@ set_param(find_system('sm_lift_table_1_arch','FindAll', 'on','type','annotation'
 % <matlab:open_system('sm_lift_table_f1_actf'); Open Model>
 
 open_system('sm_lift_table_f1_actf')
-set_param(find_system('sm_lift_table_f1_actf','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_lift_table_f1_actf','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %%
 % *Simulation Results from Simscape Logging*
@@ -78,7 +78,7 @@ sm_lift_table_f1_actf_plot1time
 % <matlab:open_system('sm_lift_table_f2_hydr'); Open Model>
 
 open_system('sm_lift_table_f2_hydr')
-set_param(find_system('sm_lift_table_f2_hydr','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_lift_table_f2_hydr','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %%
 % *Simulation Results from Simscape Logging*
@@ -97,7 +97,7 @@ sm_lift_table_f2_hydr_plot1time
 % <matlab:open_system('sm_lift_table_t1_actt'); Open Model>
 
 open_system('sm_lift_table_t1_actt')
-set_param(find_system('sm_lift_table_t1_actt','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_lift_table_t1_actt','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %%
 % *Simulation Results from Simscape Logging*
@@ -116,7 +116,7 @@ sm_lift_table_t1_actt_plot1time
 % <matlab:open_system('sm_lift_table_t2_elec'); Open Model>
 
 open_system('sm_lift_table_t2_elec')
-set_param(find_system('sm_lift_table_t2_elec','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_lift_table_t2_elec','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %%
 % *Simulation Results from Simscape Logging*

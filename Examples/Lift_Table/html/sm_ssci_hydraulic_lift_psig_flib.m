@@ -18,7 +18,7 @@
 % correctly.
 %
 %
-% Copyright 2016-2022 The MathWorks, Inc.
+% Copyright 2016-2023 The MathWorks, Inc.
 
 
 %% Model
@@ -56,7 +56,7 @@ open_system('sm_ssci_hydraulic_lift_psig_flib/Four Bar','force')
 % The table is lifted and lowered in stages.  The upper and lower limits on
 % the cylinder extension indicates that the cylinder has reached the ends
 % of its range of travel.
-sm_ssci_hydraulic_lift_psig_plot1ext;
+sm_ssci_hydraulic_lift_psig_flib_plot1ext;
 
 %% Mechanics Explorer Animation
 %

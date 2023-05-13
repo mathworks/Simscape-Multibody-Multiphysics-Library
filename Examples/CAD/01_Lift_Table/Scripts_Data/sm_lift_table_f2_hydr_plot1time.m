@@ -6,7 +6,7 @@
 % raised or lowered.  The limits of travel are reached when the piston
 % reaches the ends of the cylinder.
 %
-% Copyright 2016-2022 The MathWorks, Inc.
+% Copyright 2016-2023 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_lift_table_f2_hydr', 'var')
@@ -26,7 +26,7 @@ temp_colororder = get(gca,'defaultAxesColorOrder');
 % Get simulation results
 simlog_t = simlog_sm_lift_table_f2_hydr.PrismaticCylinderPiston.Pz.p.series.time;
 simlog_cylz = simlog_sm_lift_table_f2_hydr.PrismaticCylinderPiston.Pz.p.series.values('m');
-simlog_valve = simlog_sm_lift_table_f2_hydr.Valve.Area_PA.I.series.values('mm');
+simlog_valve = simlog_sm_lift_table_f2_hydr.Valve.S.series.values('mm');
 
 temp_hTable = logsout_sm_lift_table_f2_hydr.get('Table_Height');
 

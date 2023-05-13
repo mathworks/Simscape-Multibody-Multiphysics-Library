@@ -1,5 +1,5 @@
 # **Simscape Multibody Multiphysics Library**
-Copyright 2013-2020 The MathWorks(TM), Inc.
+Copyright 2013-2023 The MathWorks(TM), Inc.
 
 [![View Simscape Multibody Multiphysics Library on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/37636-simscape-multibody-multiphysics-library)
 
@@ -37,6 +37,16 @@ rules:
    show how to do that.
 
 ### **Release History** 
+**v4.1 Sep 2023** (R2023a)   
+1. Updated for R2023a
+2. Converted examples from Hydraulic domain to Isothermal Liquid domain
+
+**v4.1 Mar 2022** (R2022a)   
+1. Updated for R2022a
+
+**v4.1 Sep 2021** (R2021b)   
+1. Updated for R2021b
+
 **v4.1 Mar 2021** (R2021a)   
 1. Updated for R2021a
 2. Examples added and modified to use interface blocks shipping in R2021a

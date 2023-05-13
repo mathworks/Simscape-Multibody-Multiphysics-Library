@@ -4,7 +4,7 @@
 % The plots below show the amount of actuator torque required to follow a
 % specified motion profile for the actuator.
 %
-% Copyright 2016-2022 The MathWorks, Inc.
+% Copyright 2016-2023 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_lift_table_t1_actt', 'var')

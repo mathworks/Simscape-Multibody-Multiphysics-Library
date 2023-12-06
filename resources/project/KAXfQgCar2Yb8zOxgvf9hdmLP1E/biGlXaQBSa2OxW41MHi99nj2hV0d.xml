@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Info Type="Basic" Visible="1" Icon="" File="Examples/Lift_Table/sm_ssci_electric_lift_trsn.slx" Name="Electric Lift"/>
+<Info File="Examples/Lift_Table/sm_ssci_electric_lift_trsn.slx" Icon="" Name="Electric Lift" Type="Basic" Visible="1"/>

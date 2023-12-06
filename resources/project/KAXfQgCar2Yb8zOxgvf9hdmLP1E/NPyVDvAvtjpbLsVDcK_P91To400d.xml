@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Info Type="StartUp" Visible="0" Icon="" File="Scripts_Data/startup_Multibody_Multiphysics_Library.m" Name="startup_Multibody_Multiphysics_Library"/>
+<Info File="Scripts_Data/startup_Multibody_Multiphysics_Library.m" Icon="" Name="startup_Multibody_Multiphysics_Library" Type="StartUp" Visible="0"/>

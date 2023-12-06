@@ -1,12 +1,15 @@
 # **Simscape Multibody Multiphysics Library**
 Copyright 2013-2023 The MathWorks(TM), Inc.
 
-[![View Simscape Multibody Multiphysics Library on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/37636-simscape-multibody-multiphysics-library)
+This repository contains example models showing how to extend Simscape Multibody models
+by adding physical effects spanning multiple physical domains modeled in Simscape. 
+
+View on File Exchange: [![View Simscape Multibody Multiphysics Library on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/37636-simscape-multibody-multiphysics-library)  
+You can also open in MATLAB Online: [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/Simscape-Multibody-Multiphysics-Library&project=Multibody_Multiphysics_Library.prj)
 
 Open project Multibody_Multiphysics_Library.prj to get started
 
-This file contains example models showing how to extend Simscape Multibody models
-by adding physical effects spanning multiple physical domains modeled in Simscape. 
+![](Examples/CAD/01_Lift_Table/html/html/sm_lift_table_mechanicsExplorer.png)
 
 Connecting the models using Simscape Physical Signals ensures a lossless transfer 
 of power between physical networks. This submission contains a library that contains 

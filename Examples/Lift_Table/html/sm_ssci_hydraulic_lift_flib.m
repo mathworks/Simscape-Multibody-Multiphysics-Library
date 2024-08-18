@@ -22,7 +22,7 @@
 % the initial position of the Prismatic Cylinder Piston, and enter that
 % into the mask of the Hydraulic Actuator.
 %
-% Copyright 2016-2023 The MathWorks, Inc.
+% Copyright 2016-2024 The MathWorks, Inc.
 
 
 %% Model

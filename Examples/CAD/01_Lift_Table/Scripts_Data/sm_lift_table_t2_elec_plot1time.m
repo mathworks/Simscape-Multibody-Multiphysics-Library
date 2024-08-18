@@ -6,7 +6,7 @@
 % raised or lowered.  The table stops moving when the lead screw reaches
 % its limits.
 %
-% Copyright 2016-2023 The MathWorks, Inc.
+% Copyright 2016-2024 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_lift_table_t2_elec', 'var')

@@ -20,7 +20,7 @@
 % correctly.
 %
 %
-% Copyright 2016-2024 The MathWorks, Inc.
+% Copyright 2016-2025 The MathWorks, Inc.
 
 
 %% Model

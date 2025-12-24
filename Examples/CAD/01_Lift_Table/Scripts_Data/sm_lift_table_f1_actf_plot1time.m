@@ -4,7 +4,7 @@
 % The plots below show the amount of actuator force required to follow a
 % specified motion profile for the actuator.
 %
-% Copyright 2016-2024 The MathWorks, Inc.
+% Copyright 2016-2025 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_lift_table_f1_actf', 'var')

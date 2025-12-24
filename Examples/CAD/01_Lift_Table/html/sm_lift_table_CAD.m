@@ -12,7 +12,7 @@
 % Different actuation technologies can be connected to the 3-D mechanical
 % model to see which actuators would be an option in the final design
 %
-% Copyright 2016-2024 The MathWorks, Inc.
+% Copyright 2016-2025 The MathWorks, Inc.
 
 
 %% CAD Model of Lift Table
